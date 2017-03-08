@@ -1,0 +1,306 @@
+body 
+{
+	scrollbar-base-color: #F5F5F5;
+	scrollbar-face-color: Silver;
+	scrollbar-track-color: #E0E0E0; /* фон; ако го няма - highlight & face == шахматно */
+	scrollbar-arrow-color: Black; /* active */
+	scrollbar-shadow-color: Black; /* inactive arrow, шахматно с highlight; inside right & bottom */
+	scrollbar-darkshadow-color: #F1F1F1; /* right & bottom */
+	scrollbar-highlight-color: Black;
+	scrollbar-3dlight-color: white; /* upper & left */
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+div
+{
+	font-size: 10pt;
+}
+
+div.header 
+{
+	background-color: #FFD3AD;
+	border: 1px solid blue;
+	font-family: Tahoma;
+	font-size: 9pt;
+	padding: 5px;
+}
+
+div.footer 
+{
+	font-size: 10pt;
+	border: 1px solid black;
+	color: white;
+	padding: 2px;
+}
+
+th.br_bot
+{
+	border-bottom: 1px solid black;
+}
+
+th.br_btr
+{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td.week_num
+{
+	font-size: 9pt;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	background-color: #D0D0D0;
+}
+
+td.day
+{
+	font-size: 9pt;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td.today
+{
+	background-color: #61B2E8;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+a.menu:hover
+{
+	Font-weight: bold;
+	Text-decoration: none;
+	color: BLACK;
+	PADDING:1PX;
+	BORDER:1PX SOLID #FFD3AD;
+	background-color: #72AA47;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+a.menu 
+{
+	padding:1px;
+	color: white;
+	background-color: #6F83E8;
+	font-weight: bold;
+	text-decoration: none;
+	border:1px solid black;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+a.week_day
+{
+	font-size: 9pt;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: bold;
+	color:black;
+}
+
+a.week_end
+{
+	font-size: 9pt;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: bold;
+	color: red;
+}
+
+a.cl_tit 
+{
+	color: #0039AD;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a.buton
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+	font-size:18px;
+	border: 1px solid #777;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: black;
+	background-color: #EEEEEE;
+}
+
+a.buton:hover
+{
+	background-color: #777;
+	border: 1px solid black;
+	color: white;
+}
+
+a.cl_tit:hover 
+{
+	color: #0039AD;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+a.link
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+font.warning 
+{
+	color: red;
+	font-size: 10pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+input.button 
+{
+	border: 1px solid Black;
+	background-color: #F9D2A4;
+	font-family: 'Tahoma';
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+input.button0 
+{
+	color: black;
+	border: none;
+	background-color: cyan;
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+input.button2 
+{
+	color: white;
+	border: 1px solid black;
+	background-color: #FCA93C;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+input.button3 
+{
+	color: blue;
+	font-weight: bold;
+	font-family: Verdana;
+	border: 1px solid black;
+	background-color: #F0C848;
+}
+
+input.button4
+{
+	color: white;
+	background-color: #6F83E8;
+	font-weight: bold;
+	border:1px solid black;
+	font-size: 9pt;
+	font-family: Tahoma;
+}
+
+input.edit 
+{
+	color: #003399;
+	font-family: Verdana;
+	border: 1px solid Black;
+	background-color: #FFFFE0;
+}
+
+input.edit2 
+{
+	font-family: Tahoma; 
+	border: none; 
+	background-color: #ACB539; 
+}
+
+input.combo 
+{
+	color: #003399;
+	font-family: Verdana;
+	background-color: #FFFFE0;
+}
+
+.static 
+{
+	color: black;
+	font-family: Verdana;
+	border: 1px inset white;
+	background-color: #DBD3CE;
+}
+
+.static2 
+{
+	color: black;
+	font-family: Tahoma;
+	background-color: #DBD3CE;
+}
+
+.skrit 
+{
+	color: black;
+	font-family: Verdana;
+	border: 0px solid Black;
+	background-color: transparent;
+}
+
+select.combo 
+{
+	background-color: #FFFFE0;
+	font-family: Tahoma;
+	color: #003399;
+}
+
+select.combo1 
+{
+	background-color: #FFFFE0;
+	font-family: Tahoma;
+	color: #003399;
+	width: 60pt;
+}
+
+select.combo2 
+{
+	background-color: #FFFFE0;
+	font-family: Tahoma;
+	color: #003399;
+	font-weight: bold;
+	width: 60pt;
+}
+
+textarea 
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+}
+
+textarea.coment 
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	background-color: #FFFFE0;
+	border:1px solid black;
+}
+
+span.week_day
+{
+	font-size: 9pt;
+	font-family: Tahoma;
+}
+
+span.week_end
+{
+	font-size: 9pt;
+	font-family: Tahoma;
+	color: red;
+}

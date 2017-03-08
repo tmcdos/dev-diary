@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" Content="text/html;charset=windows-1251">
+<title>Daily log of the work done</title>
+<link rel="stylesheet" type="text/css" href="normal.css">
+</head>
+<body topmargin="3" leftmargin="3" rightmargin="3" bottommargin="3">
+	{HEADER}
+	<form name="create" action="index.php" method="POST">
+		<input type="hidden" name="tip" value="1">
+		<input type="hidden" name="ide" value="{IDE}">
+		<center>
+			Finish date: <input type="text" class="edit" name="datum" size="10" maxlength="10" value="{DATUM}">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Category: <select name="event" size="1" class="combo">
+				<option value="0">{EVENT}</option>
+			</select>
+			<br><br>
+			<textarea class="coment" wrap="soft" name="news" cols="150" rows="30">{TEXT}</textarea>
+			<br><br>
+			Password: <input type="text" class="edit" name="pass" size="20" maxlength="30">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" name="cmdAdd" class="button" value="SAVE">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" name="cmdDel" class="button" value="DELETE" style="{VIS_DEL}">
+		</center>
+	</form>
+	<br style="font-size:4pt">
+	{FOOTER}
+<script language="Javascript" type="text/javascript">
+  <!--{ERROR}-->
+</script>
+</body>
+</html>
